@@ -1,0 +1,101 @@
+body{
+   margin: 0px;
+   background-color: aqua;
+}
+
+.item , .item2 , .item3{
+    padding-top: 3px;
+}
+
+.item{
+    padding-left: 5px;
+}
+
+.item3{
+    padding-right: 10px;
+}
+
+.menu{
+    display: flex;
+    border: solid;
+    justify-content: space-between;
+    background-color: rgb(34, 31, 31);
+    color: #ffffff;
+    padding:15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.menu a{
+    color: #ffffff;
+}
+
+.bodyimg{
+    position:relative;
+}
+
+.bodyimg p{
+    color:darkmagenta;
+    padding: 20px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:500;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+
+.grid img{
+         border:20px darkorange;
+         border-radius:50px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    font-family:fantasy;
+}
+
+.origami{
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 25px;
+    background-color:darkslateblue ;
+    font-family: fantasy;
+}
+
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.origami img{
+    padding-top: 20px;
+}
+
+h3{
+    padding-left: 15px;
+}
+
+.lnks{
+    display: flex;
+    justify-content: end;
+}
+
+a{
+    text-decoration: blueviolet;
+}
+
+a:link{
+    color:chocolate;
+    text-decoration: cornflowerblue;
+    text-shadow: crimson;
+}
+a:visited{
+    color: darkgoldenrod;
+    text-decoration:darkgreen;
+}
